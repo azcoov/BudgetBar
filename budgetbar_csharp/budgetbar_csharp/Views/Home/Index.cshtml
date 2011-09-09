@@ -1,0 +1,28 @@
+﻿@using budgetbar_csharp.Helpers
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="page-header">
+    <h1>Budget Bar Examples</h1>
+</div>  
+
+<div style="width:300px;">
+    <p>Budget 100, spent 50</p>
+    @Html.BudgetBar(50, 100)
+
+    <p>Budget 100, spent 75</p>
+    @Html.BudgetBar(75, 100)
+
+    <p>Budget 75, spent 10</p>
+    @Html.BudgetBar(10, 75)
+
+    <p>Budget 30, spent 50</p>
+    @Html.BudgetBar(50, 30)
+
+    <p>Budget 30, spent 80</p>
+    @Html.BudgetBar(80, 30)
+
+    <p>Budget 10, spent 100</p>
+    @Html.BudgetBar(200, 10)
+</div>

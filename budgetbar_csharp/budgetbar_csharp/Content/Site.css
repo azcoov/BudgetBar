@@ -1,0 +1,20 @@
+body
+{
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    color: gray;
+}
+
+div.bar_graph{height:9px;position:relative;padding:0 0 0 0;text-align:left;overflow:hidden}
+div.bar_graph div{position:absolute;height:9px;border:0;background:none;left:0px;top:0px;overflow:hidden}
+div.bar_graph div.top{z-index:20;background-color:#4bc81a;border-bottom:1px solid #60ce35}
+div.bar_graph div.bottom{z-index:10;background-color:#e0f9b6;border-right:1px solid #ddd;border-bottom:1px solid #ddd}
+div.bar_graph div.bg_budget{background-color:#e2f1f2;border-right:1px solid #ddd;border-bottom:1px solid #ddd}
+div.bar_graph div.fill_hours{background-color:#4bc81a;}
+div.bar_graph div.bg_over_budget{background-color:#c00;border-bottom:1px solid #ce0d0d;border-right:1px solid #ce0d0d}
+.over_budget{color:red;font-weight:bold}
+.within_budget{color:#390;font-weight:bold}
+

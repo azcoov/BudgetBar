@@ -1,0 +1,7 @@
+C:\Repos\git\budgetbar\budgetbar_csharp\budgetbar_csharp\bin\budgetbar_csharp.dll
+C:\Repos\git\budgetbar\budgetbar_csharp\budgetbar_csharp\bin\budgetbar_csharp.pdb
+C:\Repos\git\budgetbar\budgetbar_csharp\budgetbar_csharp\bin\EntityFramework.dll
+C:\Repos\git\budgetbar\budgetbar_csharp\budgetbar_csharp\bin\EntityFramework.xml
+C:\Repos\git\budgetbar\budgetbar_csharp\budgetbar_csharp\obj\Debug\ResolveAssemblyReference.cache
+C:\Repos\git\budgetbar\budgetbar_csharp\budgetbar_csharp\obj\Debug\budgetbar_csharp.dll
+C:\Repos\git\budgetbar\budgetbar_csharp\budgetbar_csharp\obj\Debug\budgetbar_csharp.pdb
