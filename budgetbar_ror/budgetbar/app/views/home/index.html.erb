@@ -1,0 +1,27 @@
+<div class="page-header">
+    <h1>Budget Bar Examples</h1>
+</div>
+
+<div style="width:300px;">
+	<%= budget_bar(50,100) %>
+</div>
+
+<div style="width:300px;">
+    <p>Budget 100, spent 50</p>
+    <%= budget_bar(50,100) %>
+
+    <p>Budget 100, spent 75</p>
+    <%= budget_bar(75,100) %>
+
+    <p>Budget 75, spent 10</p>
+    <%= budget_bar(10,75) %>
+
+    <p>Budget 30, spent 50</p>
+    <%= budget_bar(50,30) %>
+
+    <p>Budget 30, spent 80</p>
+    <%= budget_bar(80,30) %>
+
+    <p>Budget 10, spent 200</p>
+    <%= budget_bar(200,10) %>
+</div>

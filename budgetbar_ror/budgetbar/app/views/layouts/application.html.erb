@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Budgetbar</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-1.2.0.min.css" />
+</head>
+<body>
+	
+		<div class="topbar">
+	        <div class="topbar-inner">
+	            <div class="container">
+	              <h3><a href="#">Budget Bar</a></h3>
+	            </div>
+	        </div>
+	    </div>
+
+	    <div class="container" style="margin-top: 60px;">
+	        <%= yield %>
+	    </div>
+
+</body>
+</html>
